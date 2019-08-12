@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 import Navbar from '../components/navbar/navbar.component';
 
 const Index = () => (
