@@ -1,5 +1,11 @@
+import Head from 'next/head';
+
 const About = () => (
   <section>
+    <Head>
+      <title>About NextJS</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </Head>
     <h1>About NextJS</h1>
     <p>
       <span>
