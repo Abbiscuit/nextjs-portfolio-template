@@ -1,8 +1,10 @@
-import Navbar from '../components/navbar/navbar.component';
+import Head from 'next/head';
 
 const Index = () => (
   <section>
-    <Navbar />
+    <Head>
+      <title>Hiro's</title>
+    </Head>
     <h1>Hello World from Next JS</h1>
   </section>
 );
