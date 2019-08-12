@@ -1,0 +1,32 @@
+.works-page {
+  .title {
+    font-size: 28px;
+    color: #fff;
+    background: #222;
+    padding: 10px;
+  }
+
+  .works-gallery {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .work-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      width: 33.3%;
+      padding: 0px 5px;
+      h2 {
+        font-size: 22px;
+      }
+
+      img {
+        width: 210px;
+        height: 150px;
+      }
+    }
+  }
+}

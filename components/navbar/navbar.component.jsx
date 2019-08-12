@@ -8,12 +8,19 @@ class Navbar extends Component {
     return (
       <nav className="navbar">
         <Link href="/">
-          <a title="Our API"> Home </a>
+          <a title="Home" className="option">
+            Home
+          </a>
         </Link>
         <div className="options">
           <Link href="/about">
             <a title="About Next JS" className="option">
-              About NextJS
+              About
+            </a>
+          </Link>
+          <Link href="/works">
+            <a title="Works" className="option">
+              Works
             </a>
           </Link>
           <Link href="/contact">
