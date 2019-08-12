@@ -4,4 +4,4 @@
 
 - To learn how NextJS works
 - To find a good directory structure
-- To deploy with (ZEIT Now)[https://zeit.co/docs]
+- To deploy with ZEIT Now [https://zeit.co/docs]
