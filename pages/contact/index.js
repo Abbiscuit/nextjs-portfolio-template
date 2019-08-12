@@ -1,7 +1,12 @@
+import Head from 'next/head';
+
 import './index.styles.scss';
 
 const Contact = () => (
   <section className="contact-page">
+    <Head>
+      <title> Contact </title>
+    </Head>
     <h1>Contact</h1>
     <p>
       <span>
