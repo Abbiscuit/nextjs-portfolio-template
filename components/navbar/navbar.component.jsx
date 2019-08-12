@@ -6,13 +6,20 @@ import './navbar.styles.scss';
 class Navbar extends Component {
   render() {
     return (
-      <nav>
-        <div>
-          <Link href="/">
-            <a title="Our API"> Home </a>
-          </Link>
+      <nav className="navbar">
+        <Link href="/">
+          <a title="Our API"> Home </a>
+        </Link>
+        <div className="options">
           <Link href="/about">
-            <a title="About Next JS"> About NextJS </a>
+            <a title="About Next JS" className="option">
+              About NextJS
+            </a>
+          </Link>
+          <Link href="/contact">
+            <a title="Contact" className="option">
+              Contact
+            </a>
           </Link>
         </div>
       </nav>

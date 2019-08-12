@@ -1,7 +1,7 @@
 import React from 'react';
 import App, { Container } from 'next/app';
 
-import Layout from '../components/layout.component';
+import Layout from '../components/layout/layout.component';
 
 class MyApp extends App {
   // Only uncomment this method if you have blocking data requirements for

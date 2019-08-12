@@ -1,7 +1,9 @@
 import Head from 'next/head';
 
+import './index.styles.scss';
+
 const About = () => (
-  <section>
+  <section className="about-page">
     <Head>
       <title>About NextJS</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
